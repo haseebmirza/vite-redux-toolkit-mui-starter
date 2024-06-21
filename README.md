@@ -65,35 +65,37 @@ To create a production build, run:
 The build output will be in the `dist` folder.
 
 ## Project Structure
-vite-redux-toolkit-mui-starter/
-├── node_modules/
-├── public/
-├── src/
-│   ├── components/
-│   │   ├── Header.tsx
-│   │   ├── Footer.tsx
-│   │   ├── Layout.tsx
-│   ├── pages/
-│   │   ├── HomePage.tsx
-│   │   ├── RegisteredUsersPage.tsx
-│   │   ├── RegisterPage.tsx
-│   ├── hooks/
-│   │   ├── hooks.ts
-│   ├── store/
-│   │   ├── counterSlice.ts
-│   │   ├── hooks.ts
-│   │   ├── store.ts
-│   │   ├── userSlice.ts
-│   ├── routers.tsx
-│   ├── App.tsx
-│   ├── main.tsx
-│   ├── index.css
-├── .gitignore
-├── index.html
-├── package.json
-├── tsconfig.json
-└── vite.config.ts
-
+    ```bash
+    vite-redux-toolkit-mui-starter/
+    ├── node_modules/
+    ├── public/
+    ├── src/
+    │   ├── components/
+    │   │   ├── Header.tsx
+    │   │   ├── Footer.tsx
+    │   │   ├── Layout.tsx
+    │   ├── pages/
+    │   │   ├── HomePage.tsx
+    │   │   ├── RegisteredUsersPage.tsx
+    │   │   ├── RegisterPage.tsx
+    │   ├── hooks/
+    │   │   ├── hooks.ts
+    │   ├── store/
+    │   │   ├── counterSlice.ts
+    │   │   ├── hooks.ts
+    │   │   ├── store.ts
+    │   │   ├── userSlice.ts
+    │   ├── routers.tsx
+    │   ├── App.tsx
+    │   ├── main.tsx
+    │   ├── index.css
+    ├── .gitignore
+    ├── index.html
+    ├── package.json
+    ├── tsconfig.json
+    └── vite.config.ts
+    ```
+    
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or find any issues, please create a pull request or open an issue in the repository.
