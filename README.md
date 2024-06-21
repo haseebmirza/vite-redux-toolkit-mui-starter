@@ -21,80 +21,82 @@ A React app template with Vite, Redux Toolkit, and Material-UI integration. Idea
 
 1. Clone the repository:
 
-    ```
-    git clone https://github.com/haseebmirza/vite-redux-toolkit-mui-starter.git
-    cd vite-redux-toolkit-mui-starter
-    ```
+```
+git clone https://github.com/haseebmirza/vite-redux-toolkit-mui-starter.git
+cd vite-redux-toolkit-mui-starter
+```
 
 2. Install dependencies:
 
-    ```
-    # Using npm
-    npm install
+```
+# Using npm
+npm install
 
-    # Using yarn
-    yarn install
-    ```
+# Using yarn
+yarn install
+```
 
 ### Running the App
 
 1. Start the development server:
 
-    ```
-    # Using npm
-    npm run dev
+```
+# Using npm
+npm run dev
 
-    # Using yarn
-    yarn dev
-    ```
+# Using yarn
+yarn dev
+```
 
 2. Open your browser and navigate to `http://localhost:8081` to see the application in action.
+
+![Running Project](public/display.png "Project")
 
 ### Building the App
 
 To create a production build, run:
 
-    ```
-    # Using npm
-    npm run build
+```
+# Using npm
+npm run build
 
-    # Using yarn
-    yarn build
-    ```
+# Using yarn
+yarn build
+```
 
 The build output will be in the `dist` folder.
 
 ## Project Structure
-    ```
-    vite-redux-toolkit-mui-starter/
-    ├── node_modules/
-    ├── public/
-    ├── src/
-    │   ├── components/
-    │   │   ├── Header.tsx
-    │   │   ├── Footer.tsx
-    │   │   ├── Layout.tsx
-    │   ├── pages/
-    │   │   ├── HomePage.tsx
-    │   │   ├── RegisteredUsersPage.tsx
-    │   │   ├── RegisterPage.tsx
-    │   ├── hooks/
-    │   │   ├── hooks.ts
-    │   ├── store/
-    │   │   ├── counterSlice.ts
-    │   │   ├── hooks.ts
-    │   │   ├── store.ts
-    │   │   ├── userSlice.ts
-    │   ├── routers.tsx
-    │   ├── App.tsx
-    │   ├── main.tsx
-    │   ├── index.css
-    ├── .gitignore
-    ├── index.html
-    ├── package.json
-    ├── tsconfig.json
-    └── vite.config.ts
-    ```
+```
+vite-redux-toolkit-mui-starter/
+├── node_modules/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Header.tsx
+│   │   ├── Footer.tsx
+│   │   ├── Layout.tsx
+│   ├── pages/
+│   │   ├── HomePage.tsx
+│   │   ├── RegisteredUsersPage.tsx
+│   │   ├── RegisterPage.tsx
+│   ├── hooks/
+│   │   ├── hooks.ts
+│   ├── store/
+│   │   ├── counterSlice.ts
+│   │   ├── hooks.ts
+│   │   ├── store.ts
+│   │   ├── userSlice.ts
+│   ├── routers.tsx
+│   ├── App.tsx
+│   ├── main.tsx
+│   ├── index.css
+├── .gitignore
+├── index.html
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
     
 ## Contributing
 
