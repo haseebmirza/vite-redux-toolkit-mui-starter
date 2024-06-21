@@ -21,14 +21,14 @@ A React app template with Vite, Redux Toolkit, and Material-UI integration. Idea
 
 1. Clone the repository:
 
-    ```bash
+    ```
     git clone https://github.com/haseebmirza/vite-redux-toolkit-mui-starter.git
     cd vite-redux-toolkit-mui-starter
     ```
 
 2. Install dependencies:
 
-    ```bash
+    ```
     # Using npm
     npm install
 
@@ -40,7 +40,7 @@ A React app template with Vite, Redux Toolkit, and Material-UI integration. Idea
 
 1. Start the development server:
 
-    ```bash
+    ```
     # Using npm
     npm run dev
 
@@ -54,7 +54,7 @@ A React app template with Vite, Redux Toolkit, and Material-UI integration. Idea
 
 To create a production build, run:
 
-    ```bash
+    ```
     # Using npm
     npm run build
 
@@ -65,7 +65,7 @@ To create a production build, run:
 The build output will be in the `dist` folder.
 
 ## Project Structure
-    ```bash
+    ```
     vite-redux-toolkit-mui-starter/
     ├── node_modules/
     ├── public/
